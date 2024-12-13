@@ -1,0 +1,235 @@
+INFO - 2024-09-24 02:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 02:45:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'u1658729_enambelas' in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_enambe...', 3306, '', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'u1658729_enambelas' in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#11 {main}
+CRITICAL - 2024-09-24 02:45:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'u1658729_enambelas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 02:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 02:45:18 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'u1658729_enambelas' in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_enambe...', 3306, '', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'u1658729_enambelas' in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#11 {main}
+CRITICAL - 2024-09-24 02:45:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'u1658729_enambelas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 02:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 03:15:01 --> Undefined variable $artikel_lain
+in APPPATH\Views\user\artikel\index.php on line 63.
+ 1 APPPATH\Views\user\artikel\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artikel_lain', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/index', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(40): view('user/artikel/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 03:15:03 --> Undefined variable $artikel_lain
+in APPPATH\Views\user\artikel\index.php on line 63.
+ 1 APPPATH\Views\user\artikel\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artikel_lain', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/index', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(40): view('user/artikel/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 03:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 03:45:04 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 03:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 03:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 06:27:35 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('login/process', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 06:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:29:39 --> CSRF token verified.
+INFO - 2024-09-24 06:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 06:53:24 --> Class "app\Models\Metadatamodels" not found
+in APPPATH\Controllers\admin\MetaDataController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\MetaDataController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 06:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 06:59:39 --> Invalid file: "admin/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('admin/template', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/metadata/create', [], true)
+ 4 APPPATH\Controllers\admin\MetaDataController.php(32): view('admin/metadata/create')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\MetaDataController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MetaDataController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+CRITICAL - 2024-09-24 07:00:24 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/meta_data/store', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+CRITICAL - 2024-09-24 07:02:29 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/meta_data/store', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+CRITICAL - 2024-09-24 07:06:57 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/meta_data/store', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-09-24 07:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:10:42 --> CSRF token verified.
+INFO - 2024-09-24 07:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:11:21 --> CSRF token verified.
+INFO - 2024-09-24 07:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:12:31 --> CSRF token verified.
+INFO - 2024-09-24 07:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

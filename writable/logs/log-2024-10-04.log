@@ -1,0 +1,925 @@
+INFO - 2024-10-04 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:50:04 --> CSRF token verified.
+INFO - 2024-10-04 03:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 03:50:09 --> Undefined property: stdClass::$deskripsi_artikel_inggris
+in APPPATH\Views\admin\artikel\index.php on line 48.
+ 1 APPPATH\Views\admin\artikel\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi_artikel_inggris', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\index.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/index', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(32): view('admin/artikel/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 03:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 03:56:51 --> Undefined property: stdClass::$deskripsi_artikel_inggris
+in APPPATH\Views\admin\artikel\index.php on line 50.
+ 1 APPPATH\Views\admin\artikel\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi_artikel_inggris', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/index', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(32): view('admin/artikel/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 03:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 03:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:02:23 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(108): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:02:32 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(108): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:03:42 --> CSRF token verified.
+INFO - 2024-10-04 04:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:04:50 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(108): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:10:02 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(108): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:10:49 --> CSRF token verified.
+INFO - 2024-10-04 04:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:11:17 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(108): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:11:35 --> CSRF token verified.
+INFO - 2024-10-04 04:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:11:44 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(108): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:12:26 --> CSRF token verified.
+INFO - 2024-10-04 04:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:27:06 --> Too few arguments to function App\Controllers\user\Artikelctrl::__construct(), 0 passed in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php on line 904 and exactly 3 expected
+in APPPATH\Controllers\user\Artikelctrl.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\user\Artikelctrl->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 04:27:56 --> Too few arguments to function App\Controllers\user\Artikelctrl::__construct(), 0 passed in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php on line 904 and exactly 3 expected
+in APPPATH\Controllers\user\Artikelctrl.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\user\Artikelctrl->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 04:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 04:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 05:35:48 --> Call to undefined function App\Controllers\user\character_limiter()
+in APPPATH\Controllers\user\Artikelctrl.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 05:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 05:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:24:22 --> Undefined property: stdClass::$penulis_artikel
+in APPPATH\Views\user\artikel\detail.php on line 8.
+ 1 APPPATH\Views\user\artikel\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$penulis_artikel', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/detail', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(90): view('user/artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 06:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:40:07 --> Undefined property: stdClass::$judul_artikel_en
+in APPPATH\Views\user\artikel\detail.php on line 82.
+ 1 APPPATH\Views\user\artikel\detail.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul_artikel_en', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/detail', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(105): view('user/artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 06:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:42:34 --> Undefined property: stdClass::$judul_artikel_en
+in APPPATH\Views\user\artikel\detail.php on line 82.
+ 1 APPPATH\Views\user\artikel\detail.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul_artikel_en', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/detail', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(108): view('user/artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 06:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:43:43 --> Undefined property: stdClass::$judul_artikel_en
+in APPPATH\Views\user\artikel\detail.php on line 110.
+ 1 APPPATH\Views\user\artikel\detail.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul_artikel_en', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/detail', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(108): view('user/artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 06:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 06:44:13 --> Undefined property: stdClass::$judul_artikel_in
+in APPPATH\Views\user\artikel\detail.php on line 82.
+ 1 APPPATH\Views\user\artikel\detail.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul_artikel_in', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\user\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/detail', [], true)
+ 5 APPPATH\Controllers\user\Artikelctrl.php(108): view('user/artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 06:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 06:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:06:39 --> CSRF token verified.
+INFO - 2024-10-04 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:06:50 --> CSRF token verified.
+INFO - 2024-10-04 07:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:06:50 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\Admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:06:50 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vvddfdvcxvcv\', \'<p>cxdfdsddszx</p>\', \'04102024070650.jpeg\', \'zzfsfdsgfg\', \'xxdfdfdgdg\', \'nmhkyujtrhrtgrfg\', \'hyurturyr\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vvddfdvcxvcv\', \'<p>cxdfdsddszx</p>\', \'04102024070650.jpeg\', \'zzfsfdsgfg\', \'xxdfdfdgdg\', \'nmhkyujtrhrtgrfg\', \'hyurturyr\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vvddfdvcxvcv\', \'<p>cxdfdsddszx</p>\', \'04102024070650.jpeg\', \'zzfsfdsgfg\', \'xxdfdfdgdg\', \'nmhkyujtrhrtgrfg\', \'hyurturyr\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:07:07 --> CSRF token verified.
+INFO - 2024-10-04 07:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:07:07 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:07:07 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vvddfdvcxvcv\', \'<p>cxdfdsddszx</p>\', \'04102024070707.jpeg\', \'zzfsfdsgfg\', \'xxdfdfdgdg\', \'nmhkyujtrhrtgrfg\', \'hyurturyr\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vvddfdvcxvcv\', \'<p>cxdfdsddszx</p>\', \'04102024070707.jpeg\', \'zzfsfdsgfg\', \'xxdfdfdgdg\', \'nmhkyujtrhrtgrfg\', \'hyurturyr\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vvddfdvcxvcv\', \'<p>cxdfdsddszx</p>\', \'04102024070707.jpeg\', \'zzfsfdsgfg\', \'xxdfdfdgdg\', \'nmhkyujtrhrtgrfg\', \'hyurturyr\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:08:10 --> CSRF token verified.
+INFO - 2024-10-04 07:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:08:10 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\Admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:08:10 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'cddsdsdxsx\', \'<p>gvey dbwugewd s dsdwuyebw</p>\', \'04102024070810.jpeg\', \'jhbksdd sdns,\', \'shvs nwm ewdbwjdmnewd e\', \'uwgebjd swedw\', \'sbcd dbnwd wqhdvwejhw ewsw\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'cddsdsdxsx\', \'<p>gvey dbwugewd s dsdwuyebw</p>\', \'04102024070810.jpeg\', \'jhbksdd sdns,\', \'shvs nwm ewdbwjdmnewd e\', \'uwgebjd swedw\', \'sbcd dbnwd wqhdvwejhw ewsw\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'cddsdsdxsx\', \'<p>gvey dbwugewd s dsdwuyebw</p>\', \'04102024070810.jpeg\', \'jhbksdd sdns,\', \'shvs nwm ewdbwjdmnewd e\', \'uwgebjd swedw\', \'sbcd dbnwd wqhdvwejhw ewsw\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:08:35 --> CSRF token verified.
+INFO - 2024-10-04 07:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:08:35 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:08:35 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'cddsdsdxsx\', \'<p>gvey dbwugewd s dsdwuyebw</p>\', \'04102024070835.jpeg\', \'jhbksdd sdns,\', \'shvs nwm ewdbwjdmnewd e\', \'uwgebjd swedw\', \'sbcd dbnwd wqhdvwejhw ewsw\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'cddsdsdxsx\', \'<p>gvey dbwugewd s dsdwuyebw</p>\', \'04102024070835.jpeg\', \'jhbksdd sdns,\', \'shvs nwm ewdbwjdmnewd e\', \'uwgebjd swedw\', \'sbcd dbnwd wqhdvwejhw ewsw\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'cddsdsdxsx\', \'<p>gvey dbwugewd s dsdwuyebw</p>\', \'04102024070835.jpeg\', \'jhbksdd sdns,\', \'shvs nwm ewdbwjdmnewd e\', \'uwgebjd swedw\', \'sbcd dbnwd wqhdvwejhw ewsw\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:10:11 --> CSRF token verified.
+INFO - 2024-10-04 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:10:11 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:10:11 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071011.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071011.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071011.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:13:59 --> CSRF token verified.
+INFO - 2024-10-04 07:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:13:59 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:13:59 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071359.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071359.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071359.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:14:18 --> CSRF token verified.
+INFO - 2024-10-04 07:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:14:18 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:14:18 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071418.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071418.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'vdddfdfdfdfdf\', \'<p>fdwwsxaxsaxsaads</p>\', \'04102024071418.jpeg\', \'gdksamd sdshdvf \', \'wgudqgee wewewewew\', \'eufhd c fkefeirhbekrne\', \'dchd fmdfndsfmsnf sjf\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:14:53 --> CSRF token verified.
+INFO - 2024-10-04 07:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:14:53 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:14:53 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071453.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071453.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071453.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:15:17 --> CSRF token verified.
+INFO - 2024-10-04 07:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:15:17 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:15:17 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071517.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071517.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071517.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:15:33 --> CSRF token verified.
+INFO - 2024-10-04 07:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:15:33 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:15:33 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071533.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071533.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071533.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:16:01 --> CSRF token verified.
+INFO - 2024-10-04 07:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:16:01 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:16:01 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071601.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071601.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071601.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:16:08 --> CSRF token verified.
+INFO - 2024-10-04 07:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:16:08 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:16:08 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071608.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071608.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>aaxxscscsc</p>\', \'04102024071608.jpeg\', \'sdasas\', \'asasasa\', \'assasa\', \'asasa\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:19:07 --> CSRF token verified.
+INFO - 2024-10-04 07:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:19:07 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:19:07 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>sddsqwqs</p>\', \'04102024071907.jpeg\', \'sdasas\', \'sdwdwqsqd\', \' ljbdjcsj zousakxn xxbuxhidd oapdjDJAS idahdasx d iudiadiadns  jsijfsz as\', \'sdsdsdsd\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>sddsqwqs</p>\', \'04102024071907.jpeg\', \'sdasas\', \'sdwdwqsqd\', \' ljbdjcsj zousakxn xxbuxhidd oapdjDJAS idahdasx d iudiadiadns  jsijfsz as\', \'sdsdsdsd\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>sddsqwqs</p>\', \'04102024071907.jpeg\', \'sdasas\', \'sdwdwqsqd\', \' ljbdjcsj zousakxn xxbuxhidd oapdjDJAS idahdasx d iudiadiadns  jsijfsz as\', \'sdsdsdsd\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:25:01 --> CSRF token verified.
+INFO - 2024-10-04 07:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 07:25:01 --> mysqli_sql_exception: Column 'judul_inggris' cannot be null in D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\app\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert(Array)
+#8 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+#9 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+#10 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ANIK SAHILAH\Semester 7\Magang\Coding\Tugas SEO\adscandy.kadinkotamalang.com\16.1\system\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH...')
+#13 {main}
+CRITICAL - 2024-10-04 07:25:02 --> Column 'judul_inggris' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>sddsqwqs</p>\', \'04102024072501.jpeg\', \'sdasas\', \'sdwdwqsqd\', \' ljbdjcsj zousakxn xxbuxhidd oapdjDJAS idahdasx d iudiadiadns  jsijfsz as\', \'sdsdsdsd\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>sddsqwqs</p>\', \'04102024072501.jpeg\', \'sdasas\', \'sdwdwqsqd\', \' ljbdjcsj zousakxn xxbuxhidd oapdjDJAS idahdasx d iudiadiadns  jsijfsz as\', \'sdsdsdsd\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (\'Devops\', \'<p>sddsqwqs</p>\', \'04102024072501.jpeg\', \'sdasas\', \'sdwdwqsqd\', \' ljbdjcsj zousakxn xxbuxhidd oapdjDJAS idahdasx d iudiadiadns  jsijfsz as\', \'sdsdsdsd\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_artikel` (`judul_artikel`, `deskripsi_artikel`, `foto_artikel`, `meta_title`, `meta_description`, `meta_title_inggris`, `meta_description_inggris`, `judul_inggris`, `description_inggris`) VALUES (:judul_artikel:, :deskripsi_artikel:, :foto_artikel:, :meta_title:, :meta_description:, :meta_title_inggris:, :meta_description_inggris:, :judul_inggris:, :description_inggris:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\Artikel.php(84): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:25:59 --> CSRF token verified.
+INFO - 2024-10-04 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 07:26:28 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(103): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 07:26:44 --> CSRF token verified.
+INFO - 2024-10-04 07:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:27:45 --> CSRF token verified.
+INFO - 2024-10-04 07:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:27:59 --> CSRF token verified.
+INFO - 2024-10-04 07:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:28:14 --> CSRF token verified.
+INFO - 2024-10-04 07:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:28:37 --> CSRF token verified.
+INFO - 2024-10-04 07:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 07:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 08:25:45 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 18.
+ 1 APPPATH\Views\admin\artikel\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(103): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 08:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:35:30 --> CSRF token verified.
+INFO - 2024-10-04 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:42:58 --> CSRF token verified.
+INFO - 2024-10-04 08:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:45:57 --> CSRF token verified.
+INFO - 2024-10-04 08:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 08:50:04 --> Attempt to read property "id_artikel" on null
+in APPPATH\Views\admin\artikel\edit.php on line 17.
+ 1 APPPATH\Views\admin\artikel\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_artikel" on null', 'D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\app\\Views\\admin\\artikel\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/artikel/edit', [], true)
+ 5 APPPATH\Controllers\admin\Artikel.php(123): view('admin/artikel/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 08:50:14 --> CSRF token verified.
+INFO - 2024-10-04 08:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 08:50:14 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\admin\Artikel.php on line 158.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Artikel->proses_edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ANIK SAHILAH\\Semester 7\\Magang\\Coding\\Tugas SEO\\adscandy.kadinkotamalang.com\\16.1\\public\\index.php')
+INFO - 2024-10-04 08:54:04 --> CSRF token verified.
+INFO - 2024-10-04 08:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 08:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:02:18 --> CSRF token verified.
+INFO - 2024-10-04 09:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:03:10 --> CSRF token verified.
+INFO - 2024-10-04 09:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 09:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
